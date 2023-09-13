@@ -117,6 +117,10 @@ main {
   padding: 20px;
 }
 
+#texto-adicional{
+  font-size: 25px;
+  color: blue;
+}
 
 
 /* esta es la parte de las tarjetas */
