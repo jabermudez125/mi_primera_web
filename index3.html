@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javier Bermudez - Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/c9b87a4bee.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- este es el encabezado -->
+    <header id="encabezado">
+        <h1 class="logo">
+          <a href=" " class="fuente-acento">Mi web</a>
+        </h1>
+        <label for="check" class="checkbtn">
+          <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav class="navbar">
+            <ul class="menu">
+                <li><a class="navli" href="#seccion-principal">Inicio</a></li>
+                <li><a class="navli" href="index3.html">Trabajos</a></li>
+                <li><a class="navli" href="index3.html">sevicios</a></li>
+                <li><a class="navli" href="index3.html">Acerca de mi</a></li>
+                <li><a class="navli" href="index3.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- este es el centro -->
+    <main id="seccion-principal">
+        <section class="seccion-1">
+            <div class="sobre_mi">
+                <div id="sobre_mi_1">
+                    <h2 class="fuente-acento">Sobre mi</h2>
+                    <p class="fuente-oscura parrafo">soy una persona alegre que le gusta la musica rock y el cine</p>
+                </div>
+                <div id="foto_perfil">
+                    <img src="/mi_primera_web/img/IMG_20180829_193004.jpg" alt="foto de perfil" width="130"
+                        height="210">
+                </div>
+            </div>
+            <div>
+                <img id="fondo" src="/mi_primera_web/img/aperture-vintage-glFQhtjc4T8-unsplash.jpg"
+                    alt="este es un banner" width=100% height="300">
+            </div>
+        </section>
+
+        <!-- aque esta la parte de expriencia con las tarjetas -->
+        <section class="seccion-2">
+            <div id="titulo_exp_laboral">
+                <h2 class="fuente-acento">Experiencia</h2>
+            </div>
+            <div id="padre_cajas">
+                <div class="cajas">
+                    <img class="pequena" src="/mi_primera_web/img/trabajo.webp" alt="trabajo oficina">
+                    <h3 class="fuente-acento">Titulo 1</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab repudiandae quis explicabo tempora
+                        suscipit eos vero. Ad ea deserunt numquam alias minus. Fugit est velit quasi dignissimos saepe
+                        eaque
+                        numquam?</p>
+                    <a href="">leer mas</a>
+                </div>
+                <div class="cajas">
+                    <img class="pequena" src="/mi_primera_web/img/trabajo.webp" alt="trabajo oficina">
+                    <h3 class="fuente-acento">Titulo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quam est magnam illo sed,
+                        rerum
+                        labore, ratione impedit nihil cum neque tempore. Temporibus iste unde saepe esse placeat modi
+                        porro.
+                    </p>
+                    <a href="">leer mas</a>
+                </div>
+                <div class="cajas">
+                    <img class="pequena" src="/mi_primera_web/img/trabajo.webp" alt="trabajo oficina">
+                    <h3 class="fuente-acento">Titulo 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quam est magnam illo sed,
+                        rerum
+                        labore, ratione impedit nihil cum neque tempore. Temporibus iste unde saepe esse placeat modi
+                        porro.
+                    </p>
+                    <a href="">leer mas</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- esta es la parte del formulario -->
+        <section class="seccion-3">
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="pepe@gmail.com" 
+                    required/>
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button type="submit" id="submit">Enviar</button>
+                </div>
+                <div>
+                    <p class="alertas" id="alertas"></p>
+                </div>
+            </form>
+
+        </section>
+    </main>
+
+    <!-- eseta es la parte inferior -->
+    <footer>
+        <div>
+            <h3 class="fuente-acento">Redes Sociales</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="mailto:jabermudez028@gmail.com">Contacto</a></li>
+                <li><a href="https://www.instagram.com/">instagram</a></li>
+                <li><a href="https://www.tiktok.com/es/">tiktok</a></li>
+                <li><a href="https://wa.me/+573002196880">Whtsapp</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
